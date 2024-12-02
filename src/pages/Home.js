@@ -1,14 +1,14 @@
 import React from 'react';
-import Carousel from '../components/Carousal';
+import Carousal from '../components/Carousal';
+import Main from '../components/Main'
+
 
 const Home = () => {
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>Welcome to the home page of our app!</p>
-      <Carousel/>
+    <Main/>
+      <Carousal />
     </div>
-    
   );
 };
 
